@@ -9,6 +9,7 @@ let hours = new Date().toLocaleTimeString()
 console.log(currentHour)
 console.log(hours)
 
+
 for (let i = 0; i < 24; i++)
 
   if (hours > 9) {
@@ -75,5 +76,9 @@ if (hours > 5) {
   document.getElementById('five').classList.add('present')
 }
 
+// document.getElementById('nine').textContent = localStorage.getItem('appt')
 
+// document.getElementById('saveBtn').addEventListener('click', () => {
 
+//   let appt = localStorage.setItem('appt', document.getElementById('nine').value)
+// })
